@@ -3,7 +3,7 @@
 
 ## What is this project?
 
-This project demonstrates a real-time data pipeline built with **Apache Kafka**, **Apache Spark Structured Streaming**, and **MongoDB**, deployed and tested on **Google Cloud Platform (GCP)**.
+This project demonstrates a real-time data pipeline built with **Confluent Kafka**, **Spark Structured Streaming**, and **MongoDB**, deployed and tested on **Google Cloud Platform (GCP)**.
 
 It includes:
 - Two Python scripts of streaming **orders** and **payments** data into Kafka topics.
@@ -28,7 +28,7 @@ Kafka is widely used for building real-time streaming data pipelines. This proje
 ## Requirements
 
 - Python 3.0+
-- Apache Kafka (via Confluent Cloud or locally)
+- Confluent Kafka (via Confluent Cloud or locally)
 - Apache Spark (configured with Kafka and MongoDB connector packages)
 - MongoDB (Atlas or local)
 - GCP (for running the streaming job, or local testing)
